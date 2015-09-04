@@ -1,0 +1,105 @@
+h2.header
+{
+	font-size: 45px;
+	font-family: "Sawasdee";
+	color: #0f7091;
+}
+
+h2.mt
+{
+	color: #f3ce6f;
+	font-size: 30px;
+	font-family: "NanumGothic";
+}
+
+body
+{
+	background-image: url("images/bokeh2.jpg"); 
+}
+
+div.main
+{
+	background-color: black;
+	height: 450px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 5px;
+	border-radius: 30px;
+}
+
+div.content
+{
+	float: left;
+	border-radius: 25px;
+	margin-left: 10px;
+	width: 800px;
+	margin-right: 10px;
+	background-color: #0f0f0e;
+	color: white;
+	height: 350px;
+}
+
+div.photo
+{
+	float: left;
+	border-radius: 25px;
+	color: white;
+	margin-left: 70px;
+	margin-top: 28px;
+	margin-right: 10px; 
+}
+
+p.ct
+{
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-family: "NanumGothic";
+	font-size: 18px;
+}
+
+.pic
+{
+	border-radius: 25px;
+	border: 4px solid black;
+	transition: border 0.45s;
+	-webkit-transition: border 0.45s;
+	-moz-transition: border 0.45s;
+	-o-transition: border 0.45s;
+
+}
+
+.pic:hover
+{
+	border: 4px solid #1984b5;
+}
+
+.footer
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.foot
+{
+	background-color: black;
+	color: white;
+	font-family: "NanumGothic";
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+	width: 130px;
+	border-radius: 25px;
+	margin-left: 80px;
+	margin-right: 80px;
+	float:left;
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+}
+
+.foot:hover
+{
+	background-color: #3c213c;
+}
